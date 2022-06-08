@@ -1,0 +1,101 @@
+.pagination{
+    margin: 50px 0px 50px 2px;
+    width: auto;
+    height: 200px;
+    border: 2px solid red;
+	/* margin-top: 20px;
+    margin-left: 2px; */
+    padding: 40px;
+}
+
+.pagination h2{
+    font-size: 30px;
+    text-align: center;
+}
+.pagination-elements{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wordpress-image-intro{
+    width: auto;
+    height: 600px; 
+
+}
+.wordpress-image-info{
+    width: auto;
+    height: 400px; 
+}
+.wordpress img{
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.wordpress{
+    margin-bottom: 100px;
+}
+
+.wordpress img:hover{
+    border: 3px dashed red  ;
+    opacity: 0.8;
+    
+}
+
+.wordpress h1{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.wordpress hr{
+    margin-bottom: 50px;
+    border-width: 8px;
+    border-color: red;
+   
+}
+.wordpress p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(4, 0, 245);
+}
+.wordpress p:hover{
+    color: red;
+}
+
+.order-btn2{
+    /* background-color: rgb(13, 220, 235); */
+    /* display: inline-block; */
+	padding: 10px 30px;
+	color: rgb(252, 0, 0);
+	/* background-color: transparent; */
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.order-btn2:hover{
+    
+    color: white;
+    border: 2px solid rgb(34, 253, 5);
+	background-color: crimson;
+    animation: 3s linear 0s infinite normal none running hue-rotate;
+}
+
+@media only screen and (min-width: 768px) {
+	.order-btn2 {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
+}
