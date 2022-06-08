@@ -19,6 +19,9 @@ var images = [
     "background/background18.jpg", 
     "background/background19.jpg",
     "background/background20.jpg",
+    "background/background21.jpg",
+    "background/background22.jpg",
+    "background/background23.jpg",
     "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     
   ]
