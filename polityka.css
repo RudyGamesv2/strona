@@ -1,0 +1,30 @@
+*{
+    margin: 20px;
+}
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    line-height: 60.75px;
+    text-align: left;
+    color: #3c3d38;
+}
+li{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffcd02;
+}
+
+li span{
+    font-weight: 1;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #3c3d38;
+}
+ul{
+    list-style-type: square;
+}
+ul{
+    margin: 0;
+}
