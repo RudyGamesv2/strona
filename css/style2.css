@@ -18,15 +18,31 @@
 	justify-content: center;
 }
 
-.wordpress-image-intro{
-    width: auto;
-    height: 600px; 
 
+@media screen and (min-width: 1200px){
+    .wordpress-image-intro{
+        width: auto;
+        height: 600px; 
+    
+    }
+    .wordpress-image-info{
+        width: auto;
+        height: 400px; 
+    }
 }
-.wordpress-image-info{
-    width: auto;
-    height: 400px; 
+
+@media screen and (max-width: 1200px){
+    .wordpress-image-intro{
+        width: 400px;
+        height: 250px; 
+    
+    }
+    .wordpress-image-info{
+        width: 400px;
+        height: 200px; 
+    }
 }
+
 .wordpress img{
     margin: auto;
     margin-bottom: 30px;
@@ -97,5 +113,30 @@
 	.order-btn2 {
 		font-size: 2.5rem;
 		padding: 20px 60px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+	iframe{
+		width: 100%;
+		height: 600px;
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	iframe{
+		width: 100%;
+		height: 400px;
+		margin-bottom: 100px;
 	}
 }

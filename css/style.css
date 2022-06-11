@@ -625,8 +625,9 @@ html{
 	scroll-behavior: smooth;
   }
  
-/* up */
-  .gotopbtn{
+  @media screen and (min-width: 1200px){
+
+.gotopbtn{
 	position: fixed;
 	width: 50px;
 	height: 50px;
@@ -662,6 +663,50 @@ html{
 	  background-color: #000000;
   }
 
+}
+
+@media screen and (max-width: 1200px)
+{
+
+
+
+
+/* up */
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #910372;
+	bottom: 80px;
+	right: 19%;
+  
+	text-align: center;
+	line-height: 50px;
+	
+
+  }
+  
+/* down */
+  .gotopdown{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #910372;
+	bottom: 20px;
+	right: 19%;
+	z-index: 2;
+  
+	text-align: center;
+	line-height: 50px;
+
+  }
+
+  .opact:hover{
+	opacity: 0.9;
+  }
+}
+/* end  */
+
 
   /* Projects section */
 #projects .projects {
@@ -689,8 +734,8 @@ html{
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
-	/* tutaj */
+/* #projects .project-info {
+	
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -700,7 +745,7 @@ html{
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
-}
+} */
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
@@ -1139,6 +1184,19 @@ lord-icon{
 		
 		/* object-fit: cover; */
 	}
+
+	#projects .project-info {
+		/* tutaj */
+		padding: 30px;
+		flex-basis: 50%;
+		height: 100%;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+		background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+		color: white;
+	}
 }
 
 @media screen and (max-width: 1200px){
@@ -1154,4 +1212,18 @@ lord-icon{
 		
 		/* object-fit: cover; */
 	}
+	#projects .project-info {
+		/* tutaj */
+		padding: 30px;
+		flex-basis: 50%;
+		height: auto;
+		width: 600px;
+		display: flex;
+		/* align-items: flex-start; */
+		justify-content: center;
+		flex-direction: column;
+		background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+		color: white;
+	}
 }
+
